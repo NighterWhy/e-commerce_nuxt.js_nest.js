@@ -1,0 +1,26 @@
+# node modules and build artifacts
+node_modules
+.nitro
+.nuxt
+dist
+
+# local dev files
+.env
+.env.*.local
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# IDE/editor stuff
+.vscode
+.idea
+.DS_Store
+
+# test/config files
+.travis.yml
+.npmrc
+
+# OS ve cache
+*.swp
+*.swo
